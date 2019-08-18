@@ -17,4 +17,4 @@ Route::get('/', function () {
 
 Route::resource('almacen/categoria','CategoriaController');
 
-Route::resource('almacen/articulo','ArticuloController');
+Route::resource('almacen/articulo','ArticulogitController');
