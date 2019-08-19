@@ -16,7 +16,7 @@ class CategoriaController extends Controller
     {
 
     }
-    //Esta funcion va otener un objeto request y lo valida.
+    //Esta funcion va obtener un objeto request y lo valida.
     public function index(Request $request)
     {
     	if($request)
