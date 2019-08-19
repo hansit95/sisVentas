@@ -13,6 +13,7 @@ class Articulo extends Model
     public $timestamps=false;
 
     protected $fillable =[
+        'idarticulo',
         'codigo',
         'nombre',
         'stock',
