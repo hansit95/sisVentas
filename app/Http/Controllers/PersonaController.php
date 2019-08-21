@@ -23,6 +23,7 @@ class PersonaController extends Controller
         {
             $query=trim($request->get('searchText'));
             $personas=DB::table('Persona')->where('nombre','LIKE','%'.$query.'%')
+            ->where ('tipo_persona','=','Cliente')
             ->orderBy ('idpersona','desc')
             ->paginate (7);
             return view('ventas.persona.index',["personas"=>$personas,"searchText"=>$query]);
