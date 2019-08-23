@@ -100,3 +100,6 @@ class ArticuloController extends Controller
     	return Redirect::to('almacen/articulo');
     }
 }
+
+
+JAIRO
