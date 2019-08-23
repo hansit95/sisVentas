@@ -1,4 +1,4 @@
-<!-Ventana elminar registro->
+<!--Ventana eliminar registro-->
 <div class="modal fade modal-slide-in-right" aria-hidden="true" role="dialog" tabindex="-1" id="modal-delete-{{$cat->idcategoria}}">
 	{{Form::open(array('action'=>array('CategoriaController@destroy',$cat->idcategoria),'method'=>'delete'))}}
 
