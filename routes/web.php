@@ -34,3 +34,7 @@ Route::resource('almacen/categoria','CategoriaController');
 Route::resource('ventas/persona','PersonaController');
 
 
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
